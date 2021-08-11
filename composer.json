@@ -3,6 +3,14 @@
     "description": "Word-wrapping for php.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "word",
+        "line",
+        "wrap",
+        "text",
+        "columns",
+        "wordwrap"
+    ],
     "authors": [
         {
             "name": "kayw-geek",
