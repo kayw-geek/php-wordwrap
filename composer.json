@@ -1,0 +1,24 @@
+{
+    "name": "kayw-geek/php-wordwrap",
+    "description": "Word-wrapping for php.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kayw-geek",
+            "email": "weikaiii@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KaywGeek\\": "src"
+        }
+    }
+}
