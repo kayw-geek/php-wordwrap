@@ -141,9 +141,8 @@ class WordWrap
             $str = ltrim($str);
             for ($i = min(strlen($str) -1,$this->width);$i > 0;$i--){
                 if ($str[$i] === ' '){
-                    $str2 = $str;
+                    $strArr[$key+1] = (substr($str,$i) ?: '').$strArr[$key+1];
                     $str = substr($str,0,$i) ?: ''.PHP_EOL;
-                    $strArr[$key+1] = (substr($str2,$i) ?: '').$strArr[$key+1];
                     break;
                 }
                 if ($str[$i] !== ' '){
